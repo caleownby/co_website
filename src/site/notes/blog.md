@@ -7,6 +7,9 @@
 
 Formalized blog posts will go here, if you are looking for something a little less refined- check out notes.westho.me
 
+![[blog_posts.base]]
+
+
 Here are some of my previous blog posts 
 
 | File                                                                                                                               | tags                                                             |
