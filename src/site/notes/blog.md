@@ -12,7 +12,7 @@ filters:
   and:
     - page_type == "blog_post"
 views:
-  - type: cards
+  - type: table
     name: Table
     order:
       - file.name
