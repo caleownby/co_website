@@ -1,0 +1,51 @@
+/* Style the navbar to be a flex container */
+.navbar-inner {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 0 2rem !important;
+}
+ 
+/* Navigation styling inside navbar */
+.custom-nav-inline {
+    display: flex !important;
+    gap: 2rem;
+    align-items: center;
+    margin-left: auto !important;
+}
+ 
+.custom-nav-inline a {
+    text-decoration: none;
+    color: var(--text-normal);
+    font-weight: 500;
+    transition: color 0.2s ease;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+ 
+.custom-nav-inline a:hover {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+ 
+/* Hide the custom-nav in header since we're using navbar instead */
+header .custom-nav {
+    display: none !important;
+}
+ 
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .navbar-inner {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+    
+    .custom-nav-inline {
+        margin-left: 0 !important;
+        margin-top: 1rem;
+        width: 100%;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: flex-start;
+    }
+}
