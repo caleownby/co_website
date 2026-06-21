@@ -1,0 +1,23 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Find the navbar-inner div
+    const navbarInner = document.querySelector('.navbar-inner');
+    
+    if (navbarInner) {
+        // Create navigation container
+        const nav = document.createElement('nav');
+        nav.className = 'custom-nav-inline';
+        nav.innerHTML = `
+            <a href="/">Home</a>
+            <a href="/blog/">Writing</a>
+            <a href="/success-stories/">Success Stories</a>
+            <a href="/consulting/">Consulting</a>
+            <a href="/executive-coaching/">Coaching</a>
+            <a href="/lets-connect/">Let's Connect</a>
+        `;
+        
+        // Append to navbar-inner
+        navbarInner.appendChild(nav);
+    }
+});
+</script>
