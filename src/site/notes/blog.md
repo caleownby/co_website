@@ -7,7 +7,18 @@
 
 Formalized blog posts will go here, if you are looking for something a little less refined- check out notes.westho.me
 
-![[blog_posts.base]]
+```base
+filters:
+  and:
+    - page_type == "blog_post"
+views:
+  - type: cards
+    name: Table
+    order:
+      - file.name
+      - page_type
+      - file.ctime
+```
 
 
 Here are some of my previous blog posts 
