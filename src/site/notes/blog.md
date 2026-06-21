@@ -17,3 +17,6 @@ Here are some of my previous blog posts
 | [[blog_posts/The Merge of Asynchronous and Synchronous Communication\|The Merge of Asynchronous and Synchronous Communication]] | <ul><li>communication</li><li>teams</li></ul>                    |
 
 { .block-language-dataview}
+
+
+![[blog_posts.base]]
